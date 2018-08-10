@@ -1,3 +1,5 @@
+// This file configure sequelize for your project by specifying the paths to files required by Sequelize
+
 const path = require('path');
 
 module.exports = {

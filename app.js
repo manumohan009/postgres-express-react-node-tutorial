@@ -1,6 +1,16 @@
-const express = require('express');
-const logger = require('morgan');
-const bodyParser = require('body-parser');
+/*
+Morgan is a HTTP request logger middleware for node.js
+Using body parser allows you to access req.body from within your routes, and use that data for example to create a user in a database.
+
+
+
+
+
+*/
+
+const express = require('express'); // initialize express variable
+const logger = require('morgan');   // initialize morgan variable
+const bodyParser = require('body-parser'); // initialize body-parser variable
 
 //Set up express app
 const app = express();
